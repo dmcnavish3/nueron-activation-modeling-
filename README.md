@@ -1,13 +1,13 @@
 nueron-activation-modeling-
 ===========================
 %constants
-cond_K = 36; %mS/cm^2 
-cond_Na = 120; %mS/cm^2
-Cond_leak = 0.3; %mS/cm^2
-Volt_K = -12; %mV
-Volt_Na = 115; %mV
-Volt_leak = 10.6; %mV
-Volt_resting = -70; %mV
+    cond_K = 36; %mS/cm^2 
+    cond_Na = 120; %mS/cm^2
+    cond_leak = 0.3; %mS/cm^2
+    Volt_K = -12; %mV
+    Volt_Na = 115; %mV
+    Volt_leak = 10.6; %mV
+    Volt_resting = -70; %mV
 
 figure %constant Vm
     plot(0:0.5:100, -70*(ones(length(0:0.5:100))))
